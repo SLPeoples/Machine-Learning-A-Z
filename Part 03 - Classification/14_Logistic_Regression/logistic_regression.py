@@ -30,6 +30,7 @@ y_pred = classifier.predict(X_test)
 
 # Making the Confusion Matrix
 from sklearn.metrics import confusion_matrix
+# 89 Correct, 11 incorrect
 cm = confusion_matrix(y_test, y_pred)
 
 # Visualising the Training set results
@@ -43,13 +44,12 @@ plt.xlim(X1.min(), X1.max())
 plt.ylim(X2.min(), X2.max())
 for i, j in enumerate(np.unique(y_set)):
     plt.scatter(X_set[y_set == j, 0], X_set[y_set == j, 1],
-                c = ListedColormap(('red', 'green'))(i), label = j)
+                c = ListedColormap(('brown', 'green'))(i), label = j)
 plt.title('Logistic Regression (Training set)')
 plt.xlabel('Age')
 plt.ylabel('Estimated Salary')
 plt.legend()
 plt.show()
-
 # Visualising the Test set results
 from matplotlib.colors import ListedColormap
 X_set, y_set = X_test, y_test
@@ -61,7 +61,7 @@ plt.xlim(X1.min(), X1.max())
 plt.ylim(X2.min(), X2.max())
 for i, j in enumerate(np.unique(y_set)):
     plt.scatter(X_set[y_set == j, 0], X_set[y_set == j, 1],
-                c = ListedColormap(('red', 'green'))(i), label = j)
+                c = ListedColormap(('brown', 'green'))(i), label = j)
 plt.title('Logistic Regression (Test set)')
 plt.xlabel('Age')
 plt.ylabel('Estimated Salary')
