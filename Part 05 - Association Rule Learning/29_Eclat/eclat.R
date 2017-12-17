@@ -1,5 +1,5 @@
 # Eclat
-
+#   More simple, best to use apriori
 # Data Preprocessing
 # install.packages('arules')
 library(arules)

@@ -38,3 +38,4 @@ hist(ads_selected,
      main = 'Histogram of ads selections',
      xlab = 'Ads',
      ylab = 'Number of times each ad was selected')
+

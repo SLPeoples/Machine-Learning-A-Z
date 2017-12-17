@@ -11,51 +11,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="apriori.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Part 05 - Association Rule Learning/28_Apriori/apriori.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="random_selection.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Part 06 - Reinforcement Learning/32_UCB/random_selection.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="upper_confidence_bound.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Part 06 - Reinforcement Learning/32_UCB/upper_confidence_bound.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="random_selection.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Part 06 - Reinforcement Learning/33_Thompson_Sampling/random_selection.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="thompson_sampling.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="thompson_sampling.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Part 06 - Reinforcement Learning/33_Thompson_Sampling/thompson_sampling.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -79,6 +39,9 @@
         <option value="$PROJECT_DIR$/Part 03 - Classification/20_Random_Forest_Classification/random_forest_classification.py" />
         <option value="$PROJECT_DIR$/Part 04 - Clustering/24_K_Means/kmeans.py" />
         <option value="$PROJECT_DIR$/Part 04 - Clustering/25_Hierarchical_Clustering/hc.py" />
+        <option value="$PROJECT_DIR$/Part 05 - Association Rule Learning/28_Apriori/apriori.py" />
+        <option value="$PROJECT_DIR$/Part 06 - Reinforcement Learning/32_UCB/random_selection.py" />
+        <option value="$PROJECT_DIR$/Part 06 - Reinforcement Learning/32_UCB/upper_confidence_bound.py" />
       </list>
     </option>
   </component>
@@ -111,17 +74,6 @@
               <item name="MachineLearningA-Z" type="b2602c69:ProjectViewProjectNode" />
               <item name="MachineLearningA-Z" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="MachineLearningA-Z" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MachineLearningA-Z" type="462c0819:PsiDirectoryNode" />
-              <item name="Part 04 - Clustering" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MachineLearningA-Z" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MachineLearningA-Z" type="462c0819:PsiDirectoryNode" />
-              <item name="Part 04 - Clustering" type="462c0819:PsiDirectoryNode" />
-              <item name="25_Hierarchical_Clustering" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -143,7 +95,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.apriori">
+  <component name="RunManager" selected="Python.thompson_sampling">
     <configuration name="apriori" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -157,24 +109,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="MachineLearningA-Z" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Part 05 - Association Rule Learning/28_Apriori/apriori.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="decision_tree_classification" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Part 03 - Classification/19_Decision_Tree_Classification" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="MachineLearningA-Z" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Part 03 - Classification/19_Decision_Tree_Classification/decision_tree_classification.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -216,38 +150,56 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="random_forest_classification" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="thompson_sampling" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Part 03 - Classification/20_Random_Forest_Classification" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Part 06 - Reinforcement Learning/33_Thompson_Sampling" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="MachineLearningA-Z" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Part 03 - Classification/20_Random_Forest_Classification/random_forest_classification.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Part 06 - Reinforcement Learning/33_Thompson_Sampling/thompson_sampling.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="upper_confidence_bound" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Part 06 - Reinforcement Learning/32_UCB" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MachineLearningA-Z" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Part 06 - Reinforcement Learning/32_UCB/upper_confidence_bound.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.decision_tree_classification" />
-      <item index="1" class="java.lang.String" itemvalue="Python.random_forest_classification" />
-      <item index="2" class="java.lang.String" itemvalue="Python.kmeans" />
-      <item index="3" class="java.lang.String" itemvalue="Python.hc" />
-      <item index="4" class="java.lang.String" itemvalue="Python.apriori" />
+      <item index="0" class="java.lang.String" itemvalue="Python.kmeans" />
+      <item index="1" class="java.lang.String" itemvalue="Python.hc" />
+      <item index="2" class="java.lang.String" itemvalue="Python.apriori" />
+      <item index="3" class="java.lang.String" itemvalue="Python.upper_confidence_bound" />
+      <item index="4" class="java.lang.String" itemvalue="Python.thompson_sampling" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.apriori" />
-        <item index="1" class="java.lang.String" itemvalue="Python.hc" />
-        <item index="2" class="java.lang.String" itemvalue="Python.kmeans" />
-        <item index="3" class="java.lang.String" itemvalue="Python.random_forest_classification" />
-        <item index="4" class="java.lang.String" itemvalue="Python.decision_tree_classification" />
+        <item index="0" class="java.lang.String" itemvalue="Python.thompson_sampling" />
+        <item index="1" class="java.lang.String" itemvalue="Python.upper_confidence_bound" />
+        <item index="2" class="java.lang.String" itemvalue="Python.apriori" />
+        <item index="3" class="java.lang.String" itemvalue="Python.hc" />
+        <item index="4" class="java.lang.String" itemvalue="Python.kmeans" />
       </list>
     </recent_temporary>
   </component>
@@ -269,8 +221,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="22" y="0" width="1287" height="1057" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24940991" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24940991" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14936441" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -355,8 +308,23 @@
           <line>9</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Part 05 - Association Rule Learning/28_Apriori/apriori.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Part 06 - Reinforcement Learning/32_UCB/random_selection.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Part 06 - Reinforcement Learning/32_UCB/upper_confidence_bound.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="18" />
+      <option name="time" value="23" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -433,31 +401,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Part 06 - Reinforcement Learning/32_UCB/random_selection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Part 06 - Reinforcement Learning/32_UCB/upper_confidence_bound.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Part 06 - Reinforcement Learning/33_Thompson_Sampling/random_selection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Part 06 - Reinforcement Learning/33_Thompson_Sampling/thompson_sampling.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -486,7 +430,7 @@
         <state relative-caret-position="313">
           <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding>
-            <element signature="e#48#66#0" expanded="true" />
+            <element signature="e#48#66#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -501,8 +445,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Part 05 - Association Rule Learning/28_Apriori/apriori.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        <state relative-caret-position="289">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Part 06 - Reinforcement Learning/32_UCB/random_selection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="32" lean-forward="false" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Part 06 - Reinforcement Learning/32_UCB/upper_confidence_bound.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="35" column="40" lean-forward="false" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Part 06 - Reinforcement Learning/33_Thompson_Sampling/thompson_sampling.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
           <folding />
         </state>
       </provider>
