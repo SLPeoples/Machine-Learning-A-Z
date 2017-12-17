@@ -11,11 +11,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="naive_bayes.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Part 03 - Classification/18_Naive_Bayes/naive_bayes.py">
+      <file leaf-file-name="apriori.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Part 05 - Association Rule Learning/28_Apriori/apriori.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="random_selection.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Part 06 - Reinforcement Learning/32_UCB/random_selection.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="13" lean-forward="true" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="upper_confidence_bound.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Part 06 - Reinforcement Learning/32_UCB/upper_confidence_bound.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="random_selection.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Part 06 - Reinforcement Learning/33_Thompson_Sampling/random_selection.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="thompson_sampling.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Part 06 - Reinforcement Learning/33_Thompson_Sampling/thompson_sampling.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -35,6 +75,10 @@
         <option value="$PROJECT_DIR$/Part 03 - Classification/16_SVM/svm.py" />
         <option value="$PROJECT_DIR$/Part 03 - Classification/17_Kernel_SVM/kernel_svm.py" />
         <option value="$PROJECT_DIR$/Part 03 - Classification/18_Naive_Bayes/naive_bayes.py" />
+        <option value="$PROJECT_DIR$/Part 03 - Classification/19_Decision_Tree_Classification/decision_tree_classification.py" />
+        <option value="$PROJECT_DIR$/Part 03 - Classification/20_Random_Forest_Classification/random_forest_classification.py" />
+        <option value="$PROJECT_DIR$/Part 04 - Clustering/24_K_Means/kmeans.py" />
+        <option value="$PROJECT_DIR$/Part 04 - Clustering/25_Hierarchical_Clustering/hc.py" />
       </list>
     </option>
   </component>
@@ -70,18 +114,13 @@
             <path>
               <item name="MachineLearningA-Z" type="b2602c69:ProjectViewProjectNode" />
               <item name="MachineLearningA-Z" type="462c0819:PsiDirectoryNode" />
-              <item name="Part 02 - Regression" type="462c0819:PsiDirectoryNode" />
+              <item name="Part 04 - Clustering" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MachineLearningA-Z" type="b2602c69:ProjectViewProjectNode" />
               <item name="MachineLearningA-Z" type="462c0819:PsiDirectoryNode" />
-              <item name="Part 03 - Classification" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MachineLearningA-Z" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MachineLearningA-Z" type="462c0819:PsiDirectoryNode" />
-              <item name="Part 03 - Classification" type="462c0819:PsiDirectoryNode" />
-              <item name="18_Naive_Bayes" type="462c0819:PsiDirectoryNode" />
+              <item name="Part 04 - Clustering" type="462c0819:PsiDirectoryNode" />
+              <item name="25_Hierarchical_Clustering" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -104,111 +143,111 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.naive_bayes">
-    <configuration name="kernel_svm" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.apriori">
+    <configuration name="apriori" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Part 03 - Classification/17_Kernel_SVM" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Part 05 - Association Rule Learning/28_Apriori" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="MachineLearningA-Z" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Part 03 - Classification/17_Kernel_SVM/kernel_svm.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Part 05 - Association Rule Learning/28_Apriori/apriori.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="knn" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="decision_tree_classification" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Part 03 - Classification/15_K_Nearest_Neighbors" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Part 03 - Classification/19_Decision_Tree_Classification" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="MachineLearningA-Z" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Part 03 - Classification/15_K_Nearest_Neighbors/knn.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Part 03 - Classification/19_Decision_Tree_Classification/decision_tree_classification.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="logistic_regression" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="hc" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Part 03 - Classification/Section 14 - Logistic Regression/Logistic_Regression/Logistic_Regression" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Part 04 - Clustering/25_Hierarchical_Clustering" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="MachineLearningA-Z" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Part 03 - Classification/Section 14 - Logistic Regression/Logistic_Regression/Logistic_Regression/logistic_regression.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Part 04 - Clustering/25_Hierarchical_Clustering/hc.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="naive_bayes" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="kmeans" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Part 03 - Classification/18_Naive_Bayes" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Part 04 - Clustering/24_K_Means" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="MachineLearningA-Z" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Part 03 - Classification/18_Naive_Bayes/naive_bayes.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Part 04 - Clustering/24_K_Means/kmeans.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="svm" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="random_forest_classification" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Part 03 - Classification/16_SVM" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Part 03 - Classification/20_Random_Forest_Classification" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="MachineLearningA-Z" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Part 03 - Classification/16_SVM/svm.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Part 03 - Classification/20_Random_Forest_Classification/random_forest_classification.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.logistic_regression" />
-      <item index="1" class="java.lang.String" itemvalue="Python.knn" />
-      <item index="2" class="java.lang.String" itemvalue="Python.svm" />
-      <item index="3" class="java.lang.String" itemvalue="Python.kernel_svm" />
-      <item index="4" class="java.lang.String" itemvalue="Python.naive_bayes" />
+      <item index="0" class="java.lang.String" itemvalue="Python.decision_tree_classification" />
+      <item index="1" class="java.lang.String" itemvalue="Python.random_forest_classification" />
+      <item index="2" class="java.lang.String" itemvalue="Python.kmeans" />
+      <item index="3" class="java.lang.String" itemvalue="Python.hc" />
+      <item index="4" class="java.lang.String" itemvalue="Python.apriori" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.naive_bayes" />
-        <item index="1" class="java.lang.String" itemvalue="Python.kernel_svm" />
-        <item index="2" class="java.lang.String" itemvalue="Python.svm" />
-        <item index="3" class="java.lang.String" itemvalue="Python.knn" />
-        <item index="4" class="java.lang.String" itemvalue="Python.logistic_regression" />
+        <item index="0" class="java.lang.String" itemvalue="Python.apriori" />
+        <item index="1" class="java.lang.String" itemvalue="Python.hc" />
+        <item index="2" class="java.lang.String" itemvalue="Python.kmeans" />
+        <item index="3" class="java.lang.String" itemvalue="Python.random_forest_classification" />
+        <item index="4" class="java.lang.String" itemvalue="Python.decision_tree_classification" />
       </list>
     </recent_temporary>
   </component>
@@ -230,9 +269,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="22" y="0" width="1287" height="1057" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24940991" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24940991" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14936441" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -292,8 +330,33 @@
           <line>8</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Part 03 - Classification/18_Naive_Bayes/naive_bayes.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Part 03 - Classification/19_Decision_Tree_Classification/decision_tree_classification.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Part 03 - Classification/20_Random_Forest_Classification/random_forest_classification.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Part 04 - Clustering/24_K_Means/kmeans.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Part 04 - Clustering/25_Hierarchical_Clustering/hc.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="10" />
+      <option name="time" value="18" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -356,8 +419,90 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Part 03 - Classification/18_Naive_Bayes/naive_bayes.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Part 05 - Association Rule Learning/28_Apriori/apyori.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-714">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Part 06 - Reinforcement Learning/32_UCB/random_selection.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="13" lean-forward="true" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Part 06 - Reinforcement Learning/32_UCB/upper_confidence_bound.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Part 06 - Reinforcement Learning/33_Thompson_Sampling/random_selection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Part 06 - Reinforcement Learning/33_Thompson_Sampling/thompson_sampling.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Part 03 - Classification/19_Decision_Tree_Classification/decision_tree_classification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Part 03 - Classification/20_Random_Forest_Classification/random_forest_classification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="709">
+          <caret line="63" column="42" lean-forward="false" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Part 04 - Clustering/24_K_Means/kmeans.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding>
+            <element signature="e#48#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Part 04 - Clustering/25_Hierarchical_Clustering/hc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="42" column="87" lean-forward="false" selection-start-line="42" selection-start-column="87" selection-end-line="42" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Part 05 - Association Rule Learning/28_Apriori/apriori.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
           <folding />
         </state>
       </provider>
