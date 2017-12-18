@@ -75,3 +75,5 @@ y_pred = (y_pred > 0.5)
 # Making the Confusion Matrix
 from sklearn.metrics import confusion_matrix
 cm = confusion_matrix(y_test, y_pred)
+print(cm)
+print(str(((1542+147)/(1542+147+53+258))*100)+"% accuracy")

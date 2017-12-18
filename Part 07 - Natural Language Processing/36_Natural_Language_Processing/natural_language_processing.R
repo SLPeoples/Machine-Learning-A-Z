@@ -22,10 +22,6 @@ dtm = removeSparseTerms(dtm, 0.999)
 dataset = as.data.frame(as.matrix(dtm))
 dataset$Liked = dataset_original$Liked
 
-# Importing the dataset
-dataset = read.csv('Social_Network_Ads.csv')
-dataset = dataset[3:5]
-
 # Encoding the target feature as factor
 dataset$Liked = factor(dataset$Liked, levels = c(0, 1))
 
@@ -49,3 +45,8 @@ y_pred = predict(classifier, newdata = test_set[-692])
 
 # Making the Confusion Matrix
 cm = table(test_set[, 692], y_pred)
+# > cm
+#   y_pred
+#     79 21
+#     30 70
+#           74.5% accuracy with 800 training

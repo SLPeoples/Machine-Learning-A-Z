@@ -11,11 +11,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="thompson_sampling.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Part 06 - Reinforcement Learning/33_Thompson_Sampling/thompson_sampling.py">
+      <file leaf-file-name="ann.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Part 08 - Deep Learning/39_Artificial_Neural_Networks/ann.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+            <state relative-caret-position="500">
+              <caret line="78" column="44" lean-forward="false" selection-start-line="78" selection-start-column="44" selection-end-line="78" selection-end-column="44" />
+              <folding>
+                <element signature="e#362#380#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="knn.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Part 03 - Classification/15_K_Nearest_Neighbors/knn.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="79" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kernel_svm.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Part 03 - Classification/17_Kernel_SVM/kernel_svm.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -36,12 +58,14 @@
         <option value="$PROJECT_DIR$/Part 03 - Classification/17_Kernel_SVM/kernel_svm.py" />
         <option value="$PROJECT_DIR$/Part 03 - Classification/18_Naive_Bayes/naive_bayes.py" />
         <option value="$PROJECT_DIR$/Part 03 - Classification/19_Decision_Tree_Classification/decision_tree_classification.py" />
-        <option value="$PROJECT_DIR$/Part 03 - Classification/20_Random_Forest_Classification/random_forest_classification.py" />
         <option value="$PROJECT_DIR$/Part 04 - Clustering/24_K_Means/kmeans.py" />
         <option value="$PROJECT_DIR$/Part 04 - Clustering/25_Hierarchical_Clustering/hc.py" />
         <option value="$PROJECT_DIR$/Part 05 - Association Rule Learning/28_Apriori/apriori.py" />
         <option value="$PROJECT_DIR$/Part 06 - Reinforcement Learning/32_UCB/random_selection.py" />
         <option value="$PROJECT_DIR$/Part 06 - Reinforcement Learning/32_UCB/upper_confidence_bound.py" />
+        <option value="$PROJECT_DIR$/Part 03 - Classification/20_Random_Forest_Classification/random_forest_classification.py" />
+        <option value="$PROJECT_DIR$/Part 07 - Natural Language Processing/36_Natural_Language_Processing/natural_language_processing.py" />
+        <option value="$PROJECT_DIR$/Part 08 - Deep Learning/39_Artificial_Neural_Networks/ann.py" />
       </list>
     </option>
   </component>
@@ -74,6 +98,17 @@
               <item name="MachineLearningA-Z" type="b2602c69:ProjectViewProjectNode" />
               <item name="MachineLearningA-Z" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MachineLearningA-Z" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MachineLearningA-Z" type="462c0819:PsiDirectoryNode" />
+              <item name="Part 08 - Deep Learning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MachineLearningA-Z" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MachineLearningA-Z" type="462c0819:PsiDirectoryNode" />
+              <item name="Part 08 - Deep Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="39_Artificial_Neural_Networks" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -95,7 +130,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.thompson_sampling">
+  <component name="RunManager" selected="Python.ann">
+    <configuration name="ann" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Part 08 - Deep Learning/39_Artificial_Neural_Networks" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MachineLearningA-Z" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Part 08 - Deep Learning/39_Artificial_Neural_Networks/ann.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="apriori" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -114,37 +167,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="hc" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="natural_language_processing" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Part 04 - Clustering/25_Hierarchical_Clustering" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Part 07 - Natural Language Processing/36_Natural_Language_Processing" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="MachineLearningA-Z" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Part 04 - Clustering/25_Hierarchical_Clustering/hc.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="kmeans" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Part 04 - Clustering/24_K_Means" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="MachineLearningA-Z" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Part 04 - Clustering/24_K_Means/kmeans.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Part 07 - Natural Language Processing/36_Natural_Language_Processing/natural_language_processing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -187,19 +222,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.kmeans" />
-      <item index="1" class="java.lang.String" itemvalue="Python.hc" />
-      <item index="2" class="java.lang.String" itemvalue="Python.apriori" />
-      <item index="3" class="java.lang.String" itemvalue="Python.upper_confidence_bound" />
-      <item index="4" class="java.lang.String" itemvalue="Python.thompson_sampling" />
+      <item index="0" class="java.lang.String" itemvalue="Python.apriori" />
+      <item index="1" class="java.lang.String" itemvalue="Python.upper_confidence_bound" />
+      <item index="2" class="java.lang.String" itemvalue="Python.thompson_sampling" />
+      <item index="3" class="java.lang.String" itemvalue="Python.natural_language_processing" />
+      <item index="4" class="java.lang.String" itemvalue="Python.ann" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.thompson_sampling" />
-        <item index="1" class="java.lang.String" itemvalue="Python.upper_confidence_bound" />
-        <item index="2" class="java.lang.String" itemvalue="Python.apriori" />
-        <item index="3" class="java.lang.String" itemvalue="Python.hc" />
-        <item index="4" class="java.lang.String" itemvalue="Python.kmeans" />
+        <item index="0" class="java.lang.String" itemvalue="Python.ann" />
+        <item index="1" class="java.lang.String" itemvalue="Python.natural_language_processing" />
+        <item index="2" class="java.lang.String" itemvalue="Python.thompson_sampling" />
+        <item index="3" class="java.lang.String" itemvalue="Python.upper_confidence_bound" />
+        <item index="4" class="java.lang.String" itemvalue="Python.apriori" />
       </list>
     </recent_temporary>
   </component>
@@ -323,49 +358,60 @@
           <line>35</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Part 07 - Natural Language Processing/36_Natural_Language_Processing/natural_language_processing.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Part 07 - Natural Language Processing/36_Natural_Language_Processing/natural_language_processing.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Part 08 - Deep Learning/39_Artificial_Neural_Networks/ann.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="23" />
+      <option name="time" value="28" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Part 03 - Classification/Section 14 - Logistic Regression/Logistic_Regression/Logistic_Regression/logistic_regression.py">
+    <entry file="file://$PROJECT_DIR$/Part 08 - Deep Learning/39_Artificial_Neural_Networks/ann.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="26" lean-forward="false" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Part 02 - Regression/Section 9 - Random Forest Regression/Random_Forest_Regression/Random_Forest_Regression/random_forest_regression.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Part 03 - Classification/Section 14 - Logistic Regression/Logistic_Regression/Logistic_Regression/logistic_regression.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="32" column="26" lean-forward="false" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Part 03 - Classification/14_Logistic_Regression/logistic_regression.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="51">
+          <caret line="3" column="44" lean-forward="false" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="72" />
+          <folding>
+            <element signature="e#362#380#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Part 03 - Classification/15_K_Nearest_Neighbors/knn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="63" column="42" lean-forward="false" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
+        <state relative-caret-position="357">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="79" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Part 03 - Classification/17_Kernel_SVM/kernel_svm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Part 03 - Classification/Section 14 - Logistic Regression/Logistic_Regression/Logistic_Regression/logistic_regression.py" />
+    <entry file="file://$PROJECT_DIR$/Part 02 - Regression/Section 9 - Random Forest Regression/Random_Forest_Regression/Random_Forest_Regression/random_forest_regression.py" />
+    <entry file="file://$PROJECT_DIR$/Part 03 - Classification/Section 14 - Logistic Regression/Logistic_Regression/Logistic_Regression/logistic_regression.py" />
+    <entry file="file://$PROJECT_DIR$/Part 03 - Classification/14_Logistic_Regression/logistic_regression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -377,27 +423,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Part 03 - Classification/17_Kernel_SVM/kernel_svm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="45" column="42" lean-forward="false" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Part 03 - Classification/18_Naive_Bayes/naive_bayes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Part 05 - Association Rule Learning/28_Apriori/apyori.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-714">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -405,7 +434,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -413,14 +441,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
           <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Part 03 - Classification/20_Random_Forest_Classification/random_forest_classification.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="709">
-          <caret line="63" column="42" lean-forward="false" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
           <folding />
         </state>
       </provider>
@@ -469,9 +489,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Part 06 - Reinforcement Learning/33_Thompson_Sampling/thompson_sampling.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-141">
           <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Part 03 - Classification/18_Naive_Bayes/naive_bayes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="68" selection-end-column="10" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Part 03 - Classification/20_Random_Forest_Classification/random_forest_classification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Part 03 - Classification/17_Kernel_SVM/kernel_svm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Part 03 - Classification/15_K_Nearest_Neighbors/knn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Part 07 - Natural Language Processing/36_Natural_Language_Processing/natural_language_processing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Part 08 - Deep Learning/39_Artificial_Neural_Networks/ann.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="78" column="44" lean-forward="false" selection-start-line="78" selection-start-column="44" selection-end-line="78" selection-end-column="44" />
+          <folding>
+            <element signature="e#362#380#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
