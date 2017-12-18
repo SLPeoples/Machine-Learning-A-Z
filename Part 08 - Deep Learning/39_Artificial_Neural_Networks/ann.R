@@ -31,7 +31,7 @@ h2o.init(nthreads = -1)
 model = h2o.deeplearning(y = 'Exited',
                          training_frame = as.h2o(training_set),
                          activation = 'Rectifier',
-                         hidden = c(5,5),
+                         hidden = c(5,5,5),
                          epochs = 100,
                          train_samples_per_iteration = -2)
 
@@ -42,5 +42,13 @@ y_pred = as.vector(y_pred)
 
 # Making the Confusion Matrix
 cm = table(test_set[, 11], y_pred)
+
+# 1506   87
+# 194  213
+#           85.95% Accuracy with two hidden layers
+
+# 1539   54
+# 203  204
+#           87.15 Accuracy with three hidden layers
 
 # h2o.shutdown()
