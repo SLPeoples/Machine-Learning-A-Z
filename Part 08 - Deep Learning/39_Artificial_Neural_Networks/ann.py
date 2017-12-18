@@ -23,12 +23,16 @@ y = dataset.iloc[:, 13].values
 
 # Encoding categorical data
 from sklearn.preprocessing import LabelEncoder, OneHotEncoder
+#   Country
 labelencoder_X_1 = LabelEncoder()
 X[:, 1] = labelencoder_X_1.fit_transform(X[:, 1])
+#   Gender
 labelencoder_X_2 = LabelEncoder()
 X[:, 2] = labelencoder_X_2.fit_transform(X[:, 2])
+#   Dummy variables for Country (Because more than 0/1)
 onehotencoder = OneHotEncoder(categorical_features = [1])
 X = onehotencoder.fit_transform(X).toarray()
+#   Cutting the Dummy Variable Trap
 X = X[:, 1:]
 
 # Splitting the dataset into the Training set and Test set
@@ -57,10 +61,13 @@ classifier.add(Dense(output_dim = 6, init = 'uniform', activation = 'relu', inpu
 # Adding the second hidden layer
 classifier.add(Dense(output_dim = 6, init = 'uniform', activation = 'relu'))
 
+# Adding the third hidden layer
+classifier.add(Dense(output_dim = 6, init = 'uniform', activation = 'relu'))
+
 # Adding the output layer
 classifier.add(Dense(output_dim = 1, init = 'uniform', activation = 'sigmoid'))
 
-# Compiling the ANN
+# Compiling the ANN ; use binary_crossentropy with sigmoid activations.
 classifier.compile(optimizer = 'adam', loss = 'binary_crossentropy', metrics = ['accuracy'])
 
 # Fitting the ANN to the Training set
@@ -75,5 +82,6 @@ y_pred = (y_pred > 0.5)
 # Making the Confusion Matrix
 from sklearn.metrics import confusion_matrix
 cm = confusion_matrix(y_test, y_pred)
-print(cm)
-print(str(((1542+147)/(1542+147+53+258))*100)+"% accuracy")
+
+# 84.45% accuracy with two hidden layers
+# 85.5% accuracy with three hidden layers
