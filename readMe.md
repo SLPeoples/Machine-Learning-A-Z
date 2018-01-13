@@ -1,4 +1,6 @@
-# Machine Learning A-Z Python & R
+# Machine Learning A-Z™: Hands-On Python & R In Data Science
+
+## Learn to create Machine Learning Algorithms in Python and R from two Data Science experts.
 
 https://www.udemy.com/machinelearning/
 
